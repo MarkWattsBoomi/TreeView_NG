@@ -1,0 +1,30 @@
+{
+    "key":"treeview",
+    "legacyScriptURL":"http://localhost:8080/treeview_leg.js",
+    "scriptURL":"http://localhost:8080/treeview_ng.js",
+    "legacyStyleSheetURL":"http://localhost:8080/treeview_leg.css",
+    "styleSheetURL":"http://localhost:8080/treeview_ng.css",
+    "icon":"TreeStructure",
+    "attributes":{
+        "idProperty":"ID Property Name",
+        "iconProperty":"Node icon property",
+        "titleProperty":"Node title property",
+        "parentProperty":"Parent ID property",
+        "sequenceProperty":"Display order property",
+        "descriptionProperty":"Node description property",
+        "width":"Width. Any CSS width value e.g. 20vw, 30rem, 300px, 20% etc.",
+        "height":"Height. Any CSS width value e.g. 20vh, 30rem, 300px, 20% etc."
+    },
+    "configurationEditors":["LABEL","STATE_VALUE","DATA_SOURCE_LIST","SEARCHABLE","WIDTH","HEIGHT"],
+    "designTimeImageURL":null,
+    "designTimeRenderType":"INPUT",
+    "dateCreated":"2023-09-20T10:08:33.294935+00:00",
+    "dateModified":"2023-09-20T10:53:32.0761361+00:00",
+    "id":"a5a9d90a-767b-4d62-915b-326c3d7a305d",
+    "elementType":"CUSTOM_PAGE_COMPONENT",
+    "developerName":"TreeView",
+    "developerSummary":"A generic tree view",
+    "whoCreated":{"id":"22dcefc8-b407-4974-8044-327cb44b134e","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"},
+    "whoModified":{"id":"22dcefc8-b407-4974-8044-327cb44b134e","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"},
+    "whoOwner":{"id":"22dcefc8-b407-4974-8044-327cb44b134e","firstName":"Mark","lastName":"Watts","email":"markwatts@boomi.com"}
+}

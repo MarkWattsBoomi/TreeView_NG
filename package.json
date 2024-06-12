@@ -1,0 +1,24 @@
+{
+  "name": "###_TEMPLATE_###",
+  "version": "1.0.0",
+  "description": "###_TEMPLATE_###",
+  "scripts": {
+    "start": "esbuild ./src/TreeViewNew.tsx --outfile=./build/treeview_ng.js --sourcemap=both --serve=8080 --servedir=build --bundle --format=esm --watch",
+    "build": "esbuild ./src/TreeViewNew.tsx --outfile=./build/treeview_ng.js --bundle  --format=esm",
+    "startLegacy": "esbuild ./src/TreeViewLegacy.tsx --outfile=./build/treeview_leg.js --sourcemap=both --serve=8080 --servedir=build --bundle --format=esm --watch",
+    "buildLegacy": "esbuild ./src/TreeViewLegacy.tsx --outfile=./build/treeview_leg.js --bundle  --format=esm",
+    "buildAll": "npm run build & npm run buildLegacy"
+  },
+  "author": "Boomi",
+  "license": "MIT",
+  "dependencies": {
+    "fcmkit": "^1.0.19",
+    "fcmlib": "^1.0.64",
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.2.28",
+    "esbuild": "0.19.4"
+  }
+}
