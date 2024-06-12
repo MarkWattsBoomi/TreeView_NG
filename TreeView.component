@@ -15,7 +15,7 @@
         "width":"Width. Any CSS width value e.g. 20vw, 30rem, 300px, 20% etc.",
         "height":"Height. Any CSS width value e.g. 20vh, 30rem, 300px, 20% etc."
     },
-    "configurationEditors":["LABEL","STATE_VALUE","DATA_SOURCE_LIST","SEARCHABLE","WIDTH","HEIGHT"],
+    "configurationEditors":["LABEL","STATE_VALUE","DATA_SOURCE_LIST","SEARCHABLE","EDITABLE"],
     "designTimeImageURL":null,
     "designTimeRenderType":"INPUT",
     "dateCreated":"2023-09-20T10:08:33.294935+00:00",
